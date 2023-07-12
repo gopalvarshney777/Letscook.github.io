@@ -1,0 +1,204 @@
+.navbar-brand{
+    font-family: Lobster;
+    color: #0f7aff!important;
+    font-size: 2rem;
+}
+.nav-link, .footer-link{
+    font-family: Lobster;
+    font-size: 1.5rem;
+}
+.fa-facebook-f:hover{
+    color: #2868c9;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #bb2828;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: #21bce2;
+    cursor: pointer;
+}
+
+body{
+    font-family: Inter;
+    background-color: #bfd9aa;
+}
+
+.home-box{
+    width: 100%;
+}
+
+.hot-recipes{
+    background: #ffffff;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.box-1{
+    background-color: #E7FAFE;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.box-2{
+    padding: 0px 0px!important;
+}
+.home-img{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.time, .restaurent{
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.date{
+    margin-top: -1rem!important;
+    color: rgba(0, 0, 0, 0.6);
+}
+.view-recipes{
+    padding: 10px 30px;
+    background: #000000;
+    border-radius: 20px;
+}
+.all-product{
+    padding: 17px 20px;
+    background: #E7FAFE;
+    border-radius: 20px;
+}
+.breakfast{
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+}
+.vegan{
+    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+    border-radius: 30px;
+}
+.meat{
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+    border-radius: 30px;
+}
+.desert{
+    background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+    border-radius: 30px;
+}
+.lunch{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    border-radius: 30px;
+}
+.chocolate{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    border-radius: 30px;
+}
+.burger{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+}
+.menu-recipies{
+    border-radius: 30px;
+}
+.menu-recipies1{
+    border-radius: 25px;
+}
+.time1, .restaurent1{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.heart{
+    top: 10%;
+    right: 10%;
+    padding: 10px 10px;
+    background: #ffffff;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: #FF6363;
+}
+.hm-text{
+    padding-top: 10rem;
+}
+
+.btn-learn-more{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.insta{
+    font-family: Lobster;
+    font-size: 3px;
+    padding: 7px 3.5px;
+    background: #000000;
+    border-radius: 50%;
+    margin-top: 0.8rem;
+}
+.city{
+    font-size: 10px;
+    margin-top: -1rem;
+}
+.btn-dot{
+    border-radius: 50%;
+    padding: 3px;
+    border: black;
+    background: #000000;
+}
+.month{
+    color: rgba(0, 0, 0, 0.4);
+}
+/* .checkout{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+} */
+.btn-visit{
+    padding: 15px 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.inbox{
+    background: #E7F9FD;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5rem;
+}
+.form-control{
+    padding: 15px 10px!important;
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+.btn-subscribe{
+    padding: 15px 10px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.footer-img1, .footer-img2{
+    border-radius: 30px;
+}
+.social{
+    color: #00421780;
+}
+/* /////////////////////////media query///////////////////////// */
+@media only screen and (max-width: 768px){
+    .box-1{
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .home-img{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+
+    .breakfast, .vegan, .lunch, .meat, .desert, .chocolate{
+        margin-top: 2rem;
+    }
+
+    .burger{
+        margin-top: 2rem;
+    }
+    .footer-img1{
+        display: none;
+    }
+}

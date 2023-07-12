@@ -1,0 +1,116 @@
+.navbar-brand{
+    font-family: Lobster;
+    color: #0f7aff!important;
+    font-size: 2rem;
+}
+.note-text{
+    font-family: Lobster;
+    font-size: 2rem;
+}
+.nav-link, .footer-link{
+    font-family: Lobster;
+    font-size: 1.5rem;
+}
+.fa-facebook-f:hover{
+    color: #2868c9;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #bb2828;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: #21bce2;
+    cursor: pointer;
+}
+body{
+    font-family: Inter;
+    background: #bfd9aa;
+}
+
+.date{
+    font-size: 10px;
+    margin-top: -0.6rem;
+}
+.prep{
+    font-size: 13px;
+}
+.fa-print, .fa-arrow-up-from-bracket{
+    padding: 20px 21px;
+    background-color: #E7FAFE;
+    border-radius: 50%;
+}
+.vdo{
+    width: 100%;
+    border-radius: 20px;
+}
+.information{
+    border-radius: 20px;
+    background-color: #E7FAFE;
+}
+.divider{
+    margin-top: -0.5rem!important;
+}
+.vitamin{
+    color: rgba(0, 0, 0, 0.6);
+}
+.side-img{
+    border-radius: 10px;
+}
+.health{
+    width: 100%;
+    background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+}
+label {
+    font-size: 1.5em;
+  }
+  
+input[type=checkbox]:checked + label {
+    color:rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+}
+.box-img{
+    border-radius: 20px;
+}
+.inbox{
+    background: #E7F9FD;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5rem;
+}
+.form-control{
+    padding: 15px 10px!important;
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+.btn-subscribe{
+    padding: 15px 10px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.footer-img1, .footer-img2{
+    border-radius: 30px;
+}
+.menu-recipies1{
+    border-radius: 25px;
+}
+.time1, .restaurent1{
+    color: rgba(0, 0, 0, 0.6);
+}  
+
+@media only screen and (max-width: 768px){
+    .print{
+        margin-top: 2rem;
+    }
+    .footer-img1{
+        display: none;
+    }
+    .health{
+        display: none;
+    }
+}

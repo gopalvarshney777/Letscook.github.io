@@ -1,0 +1,79 @@
+.navbar-brand {
+    font-family: Lobster;
+    color: #0f7aff!important;
+    font-size: 2rem;
+}
+.nav-link, .footer-link{
+    font-family: Lobster;
+    font-size: 1.5rem;
+}
+.fa-facebook-f:hover{
+    color: #2868c9;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #bb2828;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: #21bce2;
+    cursor: pointer;
+}
+body {
+    font-family: Inter;
+    background: #bfd9aa;
+}
+.profile {
+    width: 30%;
+}
+.chef-img {
+    border-radius: 20px;
+}
+.box {
+    width: 90%;
+}
+.italic-box {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.inbox {
+    background: #E7F9FD;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5rem;
+}
+.form-control {
+    padding: 15px 10px !important;
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.btn-subscribe {
+    padding: 15px 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.footer-img1,
+.footer-img2 {
+    border-radius: 30px;
+}
+.menu-recipies1 {
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        width: 75%;
+    }
+
+    .footer-img1 {
+        display: none;
+    }
+    .health{
+        display: none;
+    }
+}

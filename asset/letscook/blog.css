@@ -1,0 +1,121 @@
+.navbar-brand{
+    font-family: Lobster;
+    color: #0f7aff!important;
+    font-size: 2rem;
+}
+.note-text{
+    font-family: Lobster;
+    font-size: 2rem;
+}
+.nav-link, .footer-link{
+    font-family: Lobster;
+    font-size: 1.5rem;
+}
+.fa-facebook-f:hover{
+    color: #2868c9;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #bb2828;
+    cursor: pointer;
+}
+
+.fa-twitter:hover{
+    color: #21bce2;
+    cursor: pointer;
+}
+body{
+    font-family: Inter;
+    background: #bfd9aa;
+}
+
+.form-control{
+    padding: 15px 10px!important;
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+.btn-search{
+    padding: 15px 20px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.month{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 10px;
+}
+.dummy_text{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.blog-img{
+    border-radius: 10px;
+}
+.side-img{
+    border-radius: 10px;
+}
+.date{
+    font-size: 10px;
+    margin-top: -0.6rem;
+}
+.health{
+    width: 100%;
+    background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+}
+.page-link{
+    padding: 0.5rem 0.95rem!important;
+    border-radius: 10px!important;
+}
+.page-item{
+    margin-right: 10px!important;
+}
+.page-link:focus{
+    background-color: #000000!important;
+}
+.inbox{
+    background: #E7F9FD;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5rem;
+}
+.form-control{
+    padding: 15px 10px!important;
+    border-top-left-radius: 10px!important;
+    border-bottom-left-radius: 10px!important;
+    border-top-right-radius: 0px!important;
+    border-bottom-right-radius: 0px!important;
+}
+.btn-subscribe{
+    padding: 15px 10px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.footer-img1, .footer-img2{
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    .input-group{
+        width: 100%!important;
+    }
+    .tasty-recipe{
+        margin-top: 3rem;
+    }
+    .footer-img1{
+        display: none;
+    }
+    .health{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .pagination{
+        display: none;
+    }
+}

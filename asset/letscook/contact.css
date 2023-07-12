@@ -1,0 +1,74 @@
+.navbar-brand {
+    font-family: Lobster;
+    color: #0f7aff!important;
+    font-size: 2rem;
+}
+.nav-link, .footer-link{
+    font-family: Lobster;
+    font-size: 1.5rem;
+}
+.fa-facebook-f:hover{
+    color: #2868c9;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #bb2828;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: #21bce2;
+    cursor: pointer;
+}
+body {
+    font-family: Inter;
+    background: #bfd9aa;
+}
+
+.form-label , .form-control{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-control, .form-select{
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.btn-submit{
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.inbox {
+    background: #E7F9FD;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 5rem;
+}
+#Subscribe {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.btn-subscribe {
+    padding: 15px 10px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+.footer-img1,
+.footer-img2 {
+    border-radius: 30px;
+}
+.menu-recipies1 {
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 768px){
+    .form-label{
+        margin-top: 2rem;
+    }
+    .row{
+        margin-top: 0!important;
+    }
+    .footer-img1{
+        display: none;
+    }
+}
